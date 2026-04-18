@@ -1,0 +1,5 @@
+# Dependencies — uniquement sous backend/ (pas à la racine du projet)
+backend/node_modules/
+
+# Environment & secrets
+backend/.env
