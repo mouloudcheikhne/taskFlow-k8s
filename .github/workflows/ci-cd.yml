@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/taskflowapp:latest .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/taskflowapp:latest ./backend
 
       - name: Push Docker image
         run: |
